@@ -1,0 +1,38 @@
+.job-description:global(.MuiCardContent-root) {
+  color: #555;
+  font-size: 16px;
+  padding-top: 0px
+}
+
+.job-title:global(.MuiCardHeader-title) {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.job-meta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  svg {
+    vertical-align: middle;
+  }
+}
+
+.job-header:global(.MuiCardHeader-root) {
+    padding-bottom: 8px;
+}
+
+.job-meta-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.job-card:global(.MuiCard-root) {
+    transition: box-shadow 0.3s ease-in-out;
+    &:hover {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+}
